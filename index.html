@@ -10,47 +10,117 @@
 </head>
 <body>
     <!-- Navbar -->
+    <header class="header">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <svg alt="Logo" height="24" class="d-inline-block align-text-top" width="100" class="c-slacklogo--color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" shape-rendering="geometricPrecision"><title>Slack</title><path d="m75.663 47.477 2.929-6.846c3.207 2.375 7.39 3.632 11.574 3.632 3.068 0 5.02-1.187 5.02-3.003-.07-5.03-18.477-1.118-18.617-13.764-.07-6.427 5.648-11.387 13.737-11.387 4.81 0 9.622 1.188 13.038 3.913l-2.737 6.992c-3.143-2.021-7.025-3.43-10.72-3.43-2.51 0-4.184 1.187-4.184 2.725.07 4.96 18.618 2.235 18.827 14.322 0 6.567-5.579 11.178-13.528 11.178-5.856 0-11.225-1.397-15.34-4.332m116.629-9.325a8.498 8.498 0 0 1 -7.405 4.33c-4.698 0-8.506-3.816-8.506-8.523s3.808-8.523 8.506-8.523a8.498 8.498 0 0 1 7.405 4.33l8.143-4.52c-3.05-5.451-8.868-9.137-15.548-9.137-9.839 0-17.815 7.991-17.815 17.85 0 9.858 7.976 17.85 17.815 17.85 6.68 0 12.498-3.686 15.548-9.137zm-82.477 12.958h10.18v-49.86h-10.179zm95.761-49.86v49.86h10.18v-14.938l12.063 14.938h13.012l-15.34-17.746 14.224-16.559h-12.454l-11.505 13.767v-29.322zm-54.218 15.557v4.053c-1.673-2.795-5.787-4.751-10.11-4.751-8.925 0-15.967 7.895-15.967 17.815s7.042 17.885 15.967 17.885c4.323 0 8.437-1.956 10.11-4.751v4.052h10.18v-34.303zm0 21.414c-1.464 2.445-4.532 4.26-7.948 4.26-4.699 0-8.507-3.815-8.507-8.522s3.808-8.523 8.507-8.523c3.416 0 6.484 1.886 7.948 4.4z"></path><path d="m21.902.148c-3.299 0-5.973 2.68-5.973 5.985a5.979 5.979 0 0 0 5.973 5.985h5.974v-5.985a5.98 5.98 0 0 0 -5.974-5.985m0 15.96h-15.929c-3.299 0-5.973 2.68-5.973 5.986 0 3.305 2.674 5.985 5.973 5.985h15.93c3.298 0 5.973-2.68 5.973-5.985 0-3.306-2.675-5.986-5.974-5.986" fill="#097eff"></path><path d="m59.734 22.094c0-3.306-2.675-5.986-5.974-5.986s-5.973 2.68-5.973 5.986v5.985h5.973a5.98 5.98 0 0 0 5.974-5.985m-15.929 0v-15.961a5.98 5.98 0 0 0 -5.974-5.985c-3.299 0-5.973 2.68-5.973 5.985v15.96c0 3.307 2.674 5.987 5.973 5.987a5.98 5.98 0 0 0 5.974-5.985" fill="#097eff"></path><path d="m37.831 60a5.98 5.98 0 0 0 5.974-5.985 5.98 5.98 0 0 0 -5.974-5.985h-5.973v5.985c0 3.305 2.674 5.985 5.973 5.985m0-15.96h15.93c3.298 0 5.973-2.68 5.973-5.986a5.98 5.98 0 0 0 -5.974-5.985h-15.929c-3.299 0-5.973 2.68-5.973 5.985a5.979 5.979 0 0 0 5.973 5.985" fill="#ecb12f"></path><g><path d="m0 38.054a5.979 5.979 0 0 0 5.973 5.985 5.98 5.98 0 0 0 5.974-5.985v-5.985h-5.974c-3.299 0-5.973 2.68-5.973 5.985m15.929 0v15.96c0 3.306 2.674 5.986 5.973 5.986a5.98 5.98 0 0 0 5.974-5.985v-15.961a5.979 5.979 0 0 0 -5.974-5.985c-3.299 0-5.973 2.68-5.973 5.985" fill="#ecb12f"></path></g></svg>
-              </a>
+                <img src="./assets/Slack-logo-inverted-RGB.svg" alt="Logo" width="120" class="d-inline-block align-text-top">
+            </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon navbar-dark"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle fw-semibold text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Producto
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Funciones</a></li>
-                      <li><a class="dropdown-item" href="#">Canales</a></li>
-                      <li><a class="dropdown-item" href="#">Integraciones</a></li>
-                      <li><a class="dropdown-item" href="#">Seguridad</a></li>
-                      <li><a class="dropdown-item" href="#">Slack Connect</a></li>
-                      <li><a class="dropdown-item" href="#">Clientes</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Funciones</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Canales</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Integraciones</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Seguridad</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Slack Connect</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#">Clientes</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#"><img src="\F295" alt="Download">Descargar Slack</a></li>
+                      <li><a class="dropdown-item fw-semibold text-white" href="#"><img src="\F295" alt="Download">Descargar Slack</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Soluciones</a>
+                    <a class="nav-link fw-semibold text-white" href="#">Soluciones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Empresa</a>
+                    <a class="nav-link fw-semibold text-white" href="#">Empresa</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Recursos</a>
+                    <a class="nav-link fw-semibold text-white" href="#">Recursos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Precios</a>
+                    <a class="nav-link fw-semibold text-white" href="#">Precios</a>
                   </li>
                 </ul>
                 </form>
               </div>
             </div>
           </nav>
+    <!-- header -->
+    <div class="text-white d-flex flex-column pt-2 px-3">
+        <h1 class="display-1 fw-semibold text-center">Creada para las personas.</h1>
+        <h1 class="text-orange display-1 fw-semibold text-center">Diseñada para la productividad.</h1>
+        <p class="text-center">Conéctate con las personas que necesitas, encuentra lo que quieres y automatiza el resto. Así es el trabajo en Slack, tu plataforma de productividad.</p>
+        <button type="button" class="btn text-purple btn-light btn-lg fw-medium text-center fs-6 text-uppercase mb-2 rounded-1">Registrarse con el correo electrónico</button>
+        <button type="button" class="btn btn-primary btn-lg fw-medium text-center fs-6 text-uppercase mb-2 rounded-1">
+            <svg width="20" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="LgbsSe-Bz112c"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg>
+            Registrarse con Google</button>
+    </div>
+    <img src="./assets/Slack-movilweb.jpg" class="slackmovilweb pt-4" width="615" alt="">
+</header>
+    <!-- logos -->
+    <div class="logos">
+    <div class=" logos_texto d-flex text-center p-4 fw-semibold text-uppercase">
+        Empresas de todo el mundo confían en nosotros
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-start px-3 pb-3">
+            <div class="col">
+                <img  alt="Airbnb" height="35" width="112" loading="lazy" class="lazyload object-fit-cover" data-src="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png" data-srcset="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png 1x, https://a.slack-edge.com/80588/marketing/img/logos/company/_color/airbnb-logo@2x.png 2x" src="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png" srcset="https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/airbnb-logo.png 1x, https://a.slack-edge.com/80588/marketing/img/logos/company/_color/airbnb-logo@2x.png 2x">
+            </div>
+            <div class="col">
+                <img  alt="NASA" height="50" width="67" loading="lazy" class="lazyload object-fit-cover" data-src="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png" data-srcset="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png 1x, https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa@2x.png 2x" src="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png" srcset="https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa.png 1x, https://a.slack-edge.com/5ae14bf/marketing/img/logos/company/_color/logo-nasa@2x.png 2x">
+            </div>
+            <div class="col">
+                <img alt="Uber" height="25" width="75" loading="lazy" class="lazyload object-fit-cover text-center" data-src="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png" data-srcset="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png 1x, https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/uber@2x.png 2x" src="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png" srcset="https://a.slack-edge.com/ce67d/marketing/img/logos/company/_color/uber.png 1x, https://a.slack-edge.com/e2fa17/marketing/img/logos/company/_color/uber@2x.png 2x">
+             </div></div>
+        <div class="row align-items-start px-3 pb-3">
+                <div class="col">
+                <img  alt="Target" height="50" width="48" loading="lazy" class="lazyload object-fit-cover" data-src="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png" data-srcset="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png 1x, https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo@2x.png 2x" src="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png" srcset="https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo.png 1x, https://a.slack-edge.com/80588/marketing/img/logos/company/_color/target-logo@2x.png 2x">
+            </div>
+            <div class="col">
+               <img  alt="New York Times" height="35" width="250" loading="lazy" class="lazyload object-fit-cover" data-src="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png" data-srcset="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png 1x, https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-nyt.png 2x" src="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png" srcset="https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/nyt.png 1x, https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-nyt.png 2x">
+            </div></div>
+        <div class="row align-items-start px-3 pb-3">
+            <div class="col">
+    <img  alt="Etsy" height="35" width="74" loading="lazy" class="lazyload object-fit-cover" data-src="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png" data-srcset="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png 1x, https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/etsy@2x.png 2x" src="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png" srcset="https://a.slack-edge.com/1e38e34/marketing/img/logos/company/logo-etsy.png 1x, https://a.slack-edge.com/044f5db/marketing/img/logos/company/_color/etsy@2x.png 2x">
+        </div></div>
+    </div></div>
+    <!-- features -->
+    <div class="features">
+        <img class="feature_pic py-4" src="https://a.slack-edge.com/8ce325c/marketing/img/homepage/e2e-prospects/animations/static/connectedness-mobile.es-LA.png" srcset="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/static/connectedness-mobile.es-ES.png 1x, https://a.slack-edge.com/c8f615e/marketing/img/homepage/e2e-prospects/animations/static/connectedness-mobile.es-ES@2x.png 2x" class="" alt="">
+        <h1 class="display-5 fw-semibold ps-4 text-lg-start">Reúne a tu equipo</h1>
+        <h4 class="ps-4 pe-5 fs-6 pt-2 fw-medium text-lg-start">En el centro de Slack están los canales: espacios organizados para todos y todo lo que necesitas para trabajar. En los canales, es más fácil conectarse entre departamentos, oficinas, zonas horarias e incluso otras empresas.</h4>
+        <p class="px-4 link-info"><a href="#">Obtener más información acerca de los canales</a></p>
+    </div>
+    <div class="features">
+        <img class="feature_pic py-4 float-end" src="https://a.slack-edge.com/8ce325c/marketing/img/homepage/e2e-prospects/animations/static/flexibility-mobile.es-LA.png" srcset="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/static/flexibility-mobile.es-LA.png 1x, https://a.slack-edge.com/c8f615e/marketing/img/homepage/e2e-prospects/animations/static/flexibility-mobile.es-LA@2x.png 2x" class="" alt="">
+        <h1 class="display-5 fw-semibold ps-4 text-lg-start">Escoge cómo quieres trabajar</h1>
+        <h6 class="px-4 pt-2 fw-medium pe-5 text-lg-start">En Slack, tienes toda la flexibilidad para trabajar cuándo, dónde y cómo te convenga. Puedes chatear fácilmente, enviar clips de audio y de video, o unirte a una junta para hablar en vivo.</h6>
+        <p class="px-4 link-info"><a href="#">Obtener más información acerca de la comunicación flexible</a></p>
+    </div>
+    <div class="features">
+        <img class="feature_pic py-4" src="https://a.slack-edge.com/8ce325c/marketing/img/homepage/e2e-prospects/animations/static/speed-mobile.es-LA.png" srcset="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/static/speed-mobile.es-LA.png 1x, https://a.slack-edge.com/c8f615e/marketing/img/homepage/e2e-prospects/animations/static/speed-mobile.es-LA@2x.png 2x" class="" alt="">
+        <h1 class="display-5 fw-semibold ps-4 pe-4 text-lg-start">Muévete más eficientemente con todas tus herramientas en un mismo lugar</h1>
+        <h6 class="ps-4 pe-5 fs-6 pt-2 fw-medium text-lg-start">Con tus otras aplicaciones de trabajo conectadas a Slack, puedes trabajar más rápido cambiando menos de pestaña. Y con potentes herramientas como el generador de flujos de trabajo, puedes automatizar las tareas de rutina.</h4>
+        <p class="px-4 pb-3 link-info"><a href="#">Más información acerca de la plataforma de Slack</a></p>
+    </div>
+    <!-- statistics -->
+    <div class="statistics bg-white d-flex px-3 flex-column">
+        <h2 class="display-6 fw-semibold px-2 text-center justify-content-between">Los equipos de todos los tamaños confían en Slack</h1>
+        <h6 class="px-4 text-center">Slack escala de forma segura para facilitar la colaboración en las empresas más grandes del mundo.</h6>
+        <button type="button" class="btn btn_purple text-white btn-lg fw-medium text-center fs-6 text-uppercase mb-2 rounded-1">Conoce Slack para empresas</button>
+        <button type="button" class="btn btn_border_purple btn-outline-info btn-lg fw-medium text-center fs-6 text-uppercase mb-2 rounded-1">Hablar con ventas</button>
+        </div>
+        
+    <!-- footer -->
+
 </body>
 </html>

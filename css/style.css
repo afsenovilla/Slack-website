@@ -1,1 +1,40 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  text-decoration: none !important;
+}
+
+.navbar, header {
+  background-color: #541654;
+}
+
+.text-orange {
+  color: #ECB12F;
+}
+
+.LgbsSe-Bz112c {
+  background-color: white;
+}
+
+.slackmovilweb {
+  width: 100vw;
+}
+
+.logos, .features {
+  background-color: #F4EDE4;
+}
+
+.features {
+  padding-bottom: 1px;
+}
+
+.statistics {
+  padding-top: 50px;
+}
+
+.btn_purple {
+  background-color: #541654 !important;
+}
+
+.btn_outline_purple {
+  color: #541654 !important;
+  border-color: #541654 !important;
+}/*# sourceMappingURL=style.css.map */
